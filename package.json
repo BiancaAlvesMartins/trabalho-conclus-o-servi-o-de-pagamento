@@ -1,24 +1,24 @@
 {
   "name": "trabalho-conclus-o-servi-o-de-pagamento",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/ServicoDePagamento.js",
-  "type": "module",
+  "description": "Trabalho de Conclusão de Disciplina - Pipeline de Testes",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "start": "node index.js",
+    "test": "jest --watchAll=false",
+    "test:report": "jest --coverage --watchAll=false"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BiancaAlvesMartins/trabalho-conclus-o-servi-o-de-pagamento.git"
-  },
-  "bugs": {
-    "url": "https://github.com/BiancaAlvesMartins/trabalho-conclus-o-servi-o-de-pagamento/issues"
-  },
-  "homepage": "https://github.com/BiancaAlvesMartins/trabalho-conclus-o-servi-o-de-pagamento#readme",
   "keywords": [],
-  "author": "",
+  "author": "Bianca Alves Martins",
   "license": "ISC",
   "dependencies": {
-    "mocha": "^11.7.6"
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "coverageDirectory": "coverage",
+    "collectCoverage": true
   }
 }
