@@ -2,7 +2,7 @@
   "name": "trabalho-conclus-o-servi-o-de-pagamento",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/ServicoDePagamento.js",
   "scripts": {
     "test": "mocha"
   },
