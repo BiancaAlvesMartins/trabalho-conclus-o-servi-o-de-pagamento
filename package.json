@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Trabalho de Conclusão de Disciplina - Pipeline de Testes",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
-    "test": "jest --watchAll=false",
-    "test:report": "jest --coverage --watchAll=false"
+    "test": "mocha test/**/*.js",
+    "test:report": "mocha test/**/*.js --reporter mocha-junit-reporter --reporter-options mochaFile=relatorios/test-results.xml"
   },
   "keywords": [],
   "author": "Bianca Alves Martins",
@@ -15,10 +16,8 @@
     "express": "^4.19.2"
   },
   "devDependencies": {
-    "jest": "^29.7.0"
-  },
-  "jest": {
-    "coverageDirectory": "coverage",
-    "collectCoverage": true
+    "c8": "^9.1.0",
+    "mocha": "^10.4.0",
+    "mocha-junit-reporter": "^2.2.1"
   }
 }

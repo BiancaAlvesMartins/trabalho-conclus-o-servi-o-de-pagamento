@@ -2,11 +2,9 @@ name: Pipeline de Testes
 
 on:
   workflow_dispatch:
-
   push:
     branches:
       - main
-
   schedule:
     - cron: '0 12 * * *'
 
@@ -39,4 +37,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: relatorio-mocha
-          path: relatorios/test-results.xml
+          path: relatorios/
