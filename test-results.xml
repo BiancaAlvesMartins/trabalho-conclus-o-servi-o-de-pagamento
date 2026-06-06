@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.004" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2026-06-06T20:46:30" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="ServicoDePagamento" timestamp="2026-06-06T20:46:30" tests="3" file="C:\Projeto\trabalho-conclus-o-servi-o-de-pagamento\test\ServicoDePagamento.test.js" time="0.002" failures="0">
+    <testcase name="ServicoDePagamento deve criar pagamento caro" time="0.000" classname="deve criar pagamento caro">
+    </testcase>
+    <testcase name="ServicoDePagamento deve criar pagamento padrão" time="0.001" classname="deve criar pagamento padrão">
+    </testcase>
+    <testcase name="ServicoDePagamento deve retornar o último pagamento realizado" time="0.000" classname="deve retornar o último pagamento realizado">
+    </testcase>
+  </testsuite>
+</testsuites>

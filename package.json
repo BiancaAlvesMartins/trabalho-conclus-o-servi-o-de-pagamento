@@ -3,21 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/ServicoDePagamento.js",
+  "type": "module",
   "scripts": {
     "test": "mocha"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BiancaAlvesMartins/trabalho-conclus-o-servi-o-de-pagamento.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
-  "bugs": {
-    "url": "https://github.com/BiancaAlvesMartins/trabalho-conclus-o-servi-o-de-pagamento/issues"
-  },
-  "homepage": "https://github.com/BiancaAlvesMartins/trabalho-conclus-o-servi-o-de-pagamento#readme",
   "dependencies": {
     "mocha": "^11.7.6"
   }
